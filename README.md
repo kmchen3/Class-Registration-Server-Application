@@ -11,7 +11,7 @@ Features:
 - implements signal handling which sends SIGINT (ctrl-c) signal to gracefully shut down server
 
 Usage:
-- to start server:
+- to start server: <username> <localhost>
   - ./server <port_number> <course_filename> <log_filename>
   - ./bin/zotReg_server 3200 rsrc/course_1.txt log.txt
 - to connect client:
