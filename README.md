@@ -15,5 +15,5 @@ Usage:
   - ./server <port_number> <course_filename> <log_filename>
   - ./bin/zotReg_server 3200 rsrc/course_1.txt log.txt
 - to connect client:
-  - ./client <username> <log_filename> <port_number>
+  - ./client <username> <localhost> <port_number>
   - ./bin/zotReg_client twilly 127.0.0.1 3200
